@@ -41,5 +41,6 @@ while($Result = mysqli_fetch_array($res))
 <?php
 mysqli_close($conn);
 ?>
+<a href="form.html" type="button" class="btn btn-info">เพิ่ม</a>
 </body>
 </html>
