@@ -12,7 +12,7 @@ $id = $_POST['id'];
 $name = $_POST['name'];
 $height = $_POST['height'];
 $weight = $_POST['weight'];
-$bmi = $_POST['weight'] / (($_POST['height']/100)*2)
+$bmi = $_POST['weight'] / $_POST['height']
 $sql = "INSERT INTO guesbook (name, height, weight,bmi) VALUES ('$name', '$height', '$weight','$bmi')";
 
 
